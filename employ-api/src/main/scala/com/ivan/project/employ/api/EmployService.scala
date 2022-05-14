@@ -75,7 +75,7 @@ trait EmployService extends Service {
     named("employ")
       .withCalls(
         pathCall("/api/employ/:id/crtemplr", createEmployer _),
-        pathCall("/api/employ/:id/chngpos", changePosition _),
+        pathCall("/api/employ/:id/chngpos", changePosition _)
       )
       .withTopics(
         // Kafka partitions messages, messages within the same partition will
