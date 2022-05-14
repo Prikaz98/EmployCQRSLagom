@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/ivan/documents/employ/employ-impl/src/main/scala/com/ivan/project/employ/impl/EmployServiceImpl.scala:78:16: method with a single empty parameter list overrides method without any parameter list[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def employTopic(): Topic[TopicEvents] = abstractTopic { streamElement =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

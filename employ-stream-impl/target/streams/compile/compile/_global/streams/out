@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/ivan/documents/employ/employ-stream-impl/src/main/scala/com/ivan/project/employstream/impl/EmployStreamServiceImpl.scala:14:56: value hello is not a member of com.ivan.project.employ.api.EmployService[0m
+[0m[[0m[31merror[0m] [0m[0m    Future.successful(hellos.mapAsync(8)(employService.hello(_).invoke()))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

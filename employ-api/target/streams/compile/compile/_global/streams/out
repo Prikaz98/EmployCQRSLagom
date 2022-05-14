@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m/home/ivan/documents/employ/employ-api/src/main/scala/com/ivan/project/employ/api/EmployService.scala:86:27: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : com.lightbend.lagom.scaladsl.api.Descriptor.Property[com.ivan.project.employ.api.TopicEvents,com.lightbend.lagom.scaladsl.api.broker.kafka.PartitionKeyStrategy[com.ivan.project.employ.api.TopicEvents]][0m
+[0m[[0m[31merror[0m] [0m[0m required: com.lightbend.lagom.scaladsl.api.Descriptor.Property[com.ivan.project.employ.api.TopicEvents,com.lightbend.lagom.scaladsl.api.broker.kafka.PartitionKeyStrategy[com.ivan.project.employ.api.EmployCreated]][0m
+[0m[[0m[31merror[0m] [0m[0mNote: com.lightbend.lagom.scaladsl.api.broker.kafka.PartitionKeyStrategy[com.ivan.project.employ.api.TopicEvents] <: com.lightbend.lagom.scaladsl.api.broker.kafka.PartitionKeyStrategy[com.ivan.project.employ.api.EmployCreated], but trait Property is invariant in type T.[0m
+[0m[[0m[31merror[0m] [0m[0mYou may wish to define T as +T instead. (SLS 4.5)[0m
+[0m[[0m[31merror[0m] [0m[0m          KafkaProperties.partitionKeyStrategy,[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

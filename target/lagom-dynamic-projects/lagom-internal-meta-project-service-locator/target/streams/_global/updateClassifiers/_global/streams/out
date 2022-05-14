@@ -1,0 +1,17 @@
+[debug] not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/home/ivan/documents/employ/"), "lagom-internal-meta-project-service-locator")...
+[debug] Done updating ProjectRef(uri("file:/home/ivan/documents/employ/"), "lagom-internal-meta-project-service-locator")
+[debug] found version conflict(s) in library dependencies; some are suspected to be binary incompatible:
+[debug] 	* org.scala-lang.modules:scala-java8-compat_2.12:1.0.2 (early-semver) is selected over {0.8.0, 0.9.1}
+[debug] 	    +- com.lightbend.lagom:lagom-akka-management-core_2.12:1.6.7 (depends on 1.0.2)
+[debug] 	    +- com.lightbend.lagom:lagom-javadsl-jackson_2.12:1.6.7 (depends on 1.0.2)
+[debug] 	    +- com.lightbend.lagom:lagom-api_2.12:1.6.7           (depends on 1.0.2)
+[debug] 	    +- com.lightbend.lagom:lagom-dev-mode-ssl-support_2.12:1.6.7 (depends on 1.0.2)
+[debug] 	    +- com.lightbend.lagom:lagom-scaladsl-play-json_2.12:1.6.7 (depends on 1.0.2)
+[debug] 	    +- com.lightbend.lagom:lagom-logback_2.12:1.6.7       (depends on 1.0.2)
+[debug] 	    +- com.lightbend.lagom:lagom-service-registry-client-core_2.12:1.6.7 (depends on 1.0.2)
+[debug] 	    +- com.typesafe.play:play-ahc-ws-standalone_2.12:2.1.6 (depends on 1.0.2)
+[debug] 	    +- com.typesafe.play:play_2.12:2.8.11                 (depends on 0.9.1)
+[debug] 	    +- com.typesafe.play:play-streams_2.12:2.8.11         (depends on 0.9.1)
+[debug] 	    +- com.typesafe.play:play-java_2.12:2.8.11            (depends on 0.9.1)
+[debug] 	    +- com.typesafe.akka:akka-actor_2.12:2.6.17           (depends on 0.8.0)
