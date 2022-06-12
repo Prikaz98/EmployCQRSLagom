@@ -4,6 +4,9 @@ ThisBuild / version := "1.0-SNAPSHOT"
 // the Scala version that will be used for cross-compiled libraries
 ThisBuild / scalaVersion := "2.13.8"
 
+//postgresql
+libraryDependencies += lagomScaladslPersistenceJdbc
+
 // Workaround for scala-java8-compat issue affecting Lagom dev-mode
 // https://github.com/lagom/lagom/issues/3344
 ThisBuild / libraryDependencySchemes +=
